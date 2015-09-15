@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154E5B881BA79EAA00B0FEC6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 154E5B871BA79EAA00B0FEC6 /* main.c */; };
+		154E5B8F1BA7D6F800B0FEC6 /* Stay1200_USB.java in Sources */ = {isa = PBXBuildFile; fileRef = 154E5B8E1BA7D6F800B0FEC6 /* Stay1200_USB.java */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		154E5B821BA79EAA00B0FEC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		154E5B841BA79EAA00B0FEC6 /* solis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = solis; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E5B871BA79EAA00B0FEC6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		154E5B8E1BA7D6F800B0FEC6 /* Stay1200_USB.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Stay1200_USB.java; path = /Volumes/home/Stay1200_USB.java; sourceTree = "<absolute>"; };
+		154E5B901BA7D71000B0FEC6 /* dispositivos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dispositivos; path = /Volumes/home/SGM_LITE_LINUX.jar.src/br/com/schneider/sgm/dispositivos; sourceTree = "<absolute>"; };
+		154E5B911BA7D71A00B0FEC6 /* protocolo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = protocolo; path = /Volumes/home/SGM_LITE_LINUX.jar.src/br/com/schneider/sgm/protocolo; sourceTree = "<absolute>"; };
+		154E5B921BA7D73800B0FEC6 /* controle */ = {isa = PBXFileReference; lastKnownFileType = folder; name = controle; path = /Volumes/home/SGM_LITE_LINUX.jar.src/br/com/schneider/sgm/controle; sourceTree = "<absolute>"; };
+		154E5B941BA7D75200B0FEC6 /* SGM_LITE_LINUX.jar.src.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = SGM_LITE_LINUX.jar.src.zip; path = ../../../../Volumes/home/SGM_LITE_LINUX.jar.src.zip; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154E5B811BA79EAA00B0FEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154E5B7B1BA79EAA00B0FEC6 = {
+			isa = PBXGroup;
+			children = (
+				154E5B931BA7D73E00B0FEC6 /* Reverse Engineering */,
+				154E5B861BA79EAA00B0FEC6 /* solis */,
+				154E5B851BA79EAA00B0FEC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		154E5B851BA79EAA00B0FEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				154E5B841BA79EAA00B0FEC6 /* solis */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		154E5B861BA79EAA00B0FEC6 /* solis */ = {
+			isa = PBXGroup;
+			children = (
+				154E5B871BA79EAA00B0FEC6 /* main.c */,
+			);
+			path = solis;
+			sourceTree = "<group>";
+		};
+		154E5B931BA7D73E00B0FEC6 /* Reverse Engineering */ = {
+			isa = PBXGroup;
+			children = (
+				154E5B941BA7D75200B0FEC6 /* SGM_LITE_LINUX.jar.src.zip */,
+				154E5B921BA7D73800B0FEC6 /* controle */,
+				154E5B911BA7D71A00B0FEC6 /* protocolo */,
+				154E5B901BA7D71000B0FEC6 /* dispositivos */,
+				154E5B8E1BA7D6F800B0FEC6 /* Stay1200_USB.java */,
+			);
+			name = "Reverse Engineering";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		154E5B831BA79EAA00B0FEC6 /* solis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E5B8B1BA79EAA00B0FEC6 /* Build configuration list for PBXNativeTarget "solis" */;
+			buildPhases = (
+				154E5B801BA79EAA00B0FEC6 /* Sources */,
+				154E5B811BA79EAA00B0FEC6 /* Frameworks */,
+				154E5B821BA79EAA00B0FEC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = solis;
+			productName = solis;
+			productReference = 154E5B841BA79EAA00B0FEC6 /* solis */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		154E5B7C1BA79EAA00B0FEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Bruno Salvador";
+				TargetAttributes = {
+					154E5B831BA79EAA00B0FEC6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 154E5B7F1BA79EAA00B0FEC6 /* Build configuration list for PBXProject "solis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 154E5B7B1BA79EAA00B0FEC6;
+			productRefGroup = 154E5B851BA79EAA00B0FEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				154E5B831BA79EAA00B0FEC6 /* solis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		154E5B801BA79EAA00B0FEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E5B8F1BA7D6F800B0FEC6 /* Stay1200_USB.java in Sources */,
+				154E5B881BA79EAA00B0FEC6 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		154E5B891BA79EAA00B0FEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		154E5B8A1BA79EAA00B0FEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		154E5B8C1BA79EAA00B0FEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		154E5B8D1BA79EAA00B0FEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		154E5B7F1BA79EAA00B0FEC6 /* Build configuration list for PBXProject "solis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E5B891BA79EAA00B0FEC6 /* Debug */,
+				154E5B8A1BA79EAA00B0FEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E5B8B1BA79EAA00B0FEC6 /* Build configuration list for PBXNativeTarget "solis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E5B8C1BA79EAA00B0FEC6 /* Debug */,
+				154E5B8D1BA79EAA00B0FEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 154E5B7C1BA79EAA00B0FEC6 /* Project object */;
+}
